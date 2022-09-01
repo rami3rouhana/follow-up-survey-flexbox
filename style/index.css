@@ -1,0 +1,140 @@
+body {
+    background-color: lightgray;
+    color: brown;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+}
+
+
+.main {
+    display: flex;
+    flex-direction: column;
+    width: 55%;
+}
+
+.title {
+    background-color: white;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.title h1 {
+
+    padding: 20px 0px;
+}
+
+.survey {
+    background-color: #e0e0e0;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    box-sizing: border-box;
+    padding: 20px 75px;
+}
+
+
+.survey-info-main{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 5;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.input1, .input2 {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    box-sizing: border-box;
+}
+
+.input1 input, .input2 input{
+    height: 32px;
+    width:250px;    
+    border-radius: 3px;
+    border-color: lightgray;
+}
+
+.date span{
+    font-size: x-small;
+    color: gray;
+}
+
+.question{
+    padding-top: 15px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.section{
+    width: 280px;
+}
+
+.answer{
+    padding-top: 5px;
+}
+
+.survey-info-main label {
+    margin-bottom: 10px;
+}
+
+.survey-info{
+    width: 100%;
+}
+
+.question-label{
+    padding-top: 60px;
+}
+
+.answer{
+    font-weight: 100;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: center;
+    padding-top: 8px;
+}
+
+.question-label, .additional-comment label, .input1 label, .input2 label{
+    font-weight: bold;
+}
+
+.question input{
+    width: 20px;
+    width: 32px;
+    height: 17px;
+}
+
+.additional-comment{
+    padding-top: 60px;
+    width: 100%;
+}
+
+.additional-comment label{
+    padding-bottom: 10px;
+}
+
+.additional-comment textarea{
+    width: 100%;
+    height: 150px;
+    margin-top: 10px;
+}
+
+.submit-btn{display: flex;justify-content: center;width: 100%;padding-top: 35px;}
+
+.submit-btn button{
+    color: white;
+    font-weight: bold;
+    background-image: linear-gradient(black,gray);
+    width: 25%;
+    height: 35px;
+    border-radius: 5px;
+}
